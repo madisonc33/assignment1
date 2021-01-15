@@ -1,0 +1,50 @@
+﻿p{
+    width: 50%;
+    text-align:center;
+    margin:auto;
+}
+body {
+    text-align: center;
+    align-content: center;
+    background-color:lightgray;
+}
+
+ol{
+    text-align: center;
+}
+
+.center {
+    text-align: center;
+    list-style-position: inside;
+}
+
+label {
+    font-size: 15px;
+    width: 80px;
+    display: inline-block;
+}
+.font {
+    color: #023200;
+    font-size: 20px;
+}
+img {
+    border-radius: 10%;
+}
+.bigfont {
+    font-family: 'Dawning of a New Day', cursive;
+    font-size: 70px;
+}
+.button {
+    background-color: #023200; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.boxes {
+    border-radius: 5%;
+}
+
