@@ -1,15 +1,12 @@
 ﻿//Gets the submit button from the html
 
-var submit = document.getElementById("submitButton");
-
-//Listens for when the submit button is called, then gets all the values from the form
-
-submit.addEventListener("click", function () {
-    var assignments = parseFloat(document.getElementById("assignments").value);
-    var groupProjects = parseFloat(document.getElementById("groupProjects").value);
-    var quizzes = parseFloat(document.getElementById("quizzes").value);
-    var exams = parseFloat(document.getElementById("exams").value);
-    var intex = parseFloat(document.getElementById("intex").value);
+$("#submitButton").click(function () {
+    //Gets all the values from the form
+    var assignments = parseFloat($("#assignments").val());
+    var groupProjects = parseFloat($("#groupProjects").val());
+    var quizzes = parseFloat($("#quizzes").val());
+    var exams = parseFloat($("#exams").val());
+    var intex = parseFloat($("#intex").val());
 
     //calculates the final percentage by multiplying the user's score by the weight they hold
 
